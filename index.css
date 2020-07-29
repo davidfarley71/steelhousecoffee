@@ -1,10 +1,64 @@
 .jumbotron{
-    background: url('images/images (5).jpg') no-repeat center fixed;
+    background: url("images/nathan-dumlao-KixfBEdyp64-unsplash.jpg")  center fixed;
+    background-position: bottom bottom;
     background-size: cover;
 }
+
+/* .jumbotron:hover{
+    background: url("images/nathan-dumlao-KixfBEdyp64-unsplash.jpg")  center fixed;
+    background-position: bottom bottom;
+    background-size: cover;
+} */
 
 html body{
     background-color: #ddcdba;
     font-family: 'Roboto Slab', 'serif';
     color: #aaae9f;
+}
+
+.mosaic-container{
+    display: grid;
+    align-content: center;
+    margin: auto;
+    grid-row-gap: 1rem;
+    width: 75vw;
+}
+
+.item1{
+    height: 25rem;
+    grid-row: 1 2;
+    grid-column: 1;
+    align-self: center;
+    margin-right: -12rem;
+}
+
+.item2{
+    height: 15rem;
+    grid-row: 1;
+    grid-column: 2;
+    align-self: center;
+}
+.item3{
+    height: 15rem;
+    grid-row: 1;
+    grid-column: 3;
+    align-self: center;
+}
+.item4{
+    height: 15rem;
+    grid-row: 2;
+    grid-column: 2;
+    align-self: center;
+}
+.item5{
+    width: 25rem;
+    grid-row: 2;
+    grid-column: 2 3;
+    align-self: center;
+}
+.item6{
+    height: 15rem;
+    grid-row: 2;
+    grid-column: 1;
+    align-self: center;
 }
