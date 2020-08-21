@@ -1,8 +1,15 @@
 .jumbotron{
     background: url("images/nathan-dumlao-KixfBEdyp64-unsplash.jpg")  center fixed;
+    animation: fade 5s;
     background-position: bottom bottom;
     background-size: cover;
+    opacity: 100%;
 }
+
+    @keyframes fade{
+        0%{ opacity: 15%;}
+        100%{opacity: 100%;}
+    }
 
 /* .jumbotron:hover{
     background: url("images/nathan-dumlao-KixfBEdyp64-unsplash.jpg")  center fixed;
@@ -15,6 +22,17 @@ html body{
     font-family: 'Roboto Slab', 'serif';
     color: #aaae9f;
 }
+
+.nameIntro{
+    animation: slide 5s;
+    height: 100vh;
+    margin-left: 10vw;
+}
+
+    @keyframes slide{
+        0%{margin-left: -50vw; color: burlywood;}
+        100%{ margin-left: 10vw; color: #aaae9f;}
+    }
 
 .mosaic-container{
     display: grid;
