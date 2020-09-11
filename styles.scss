@@ -1,0 +1,61 @@
+html body{
+    
+    font-family: 'Roboto Slab', 'serif';
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: #433a2b;
+    color: fefefe;
+}
+
+main{
+    flex:1;
+}
+
+.perfectCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.display-inline-block{
+    display: inline-block;
+}
+
+.flex{
+display: inline;
+}
+
+footer{
+    background-color: #7f8f88;
+}
+
+@media only screen and (min-width: 901px) {
+    .jumbotron{
+        background: url('images/images (5).jpg') no-repeat center fixed;
+        background-size: cover;
+    }
+
+    footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        .hoursHeader{
+            grid-column: 1;
+        }
+        .times{
+            grid-column: 1
+        }
+    }
+}
+
+
+
+@media only screen and (max-width: 900px) {
+    .jumbotron{
+        background: url('images/images (5).jpg') no-repeat center fixed;
+        background-size: cover;
+    }
+
+
+}

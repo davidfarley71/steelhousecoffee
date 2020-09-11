@@ -1,0 +1,72 @@
+html body {
+  font-family: 'Roboto Slab', 'serif';
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #433a2b;
+  color: fefefe;
+}
+
+main {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.perfectCenter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.display-inline-block {
+  display: inline-block;
+}
+
+.flex {
+  display: inline;
+}
+
+footer {
+  background-color: #7f8f88;
+}
+
+@media only screen and (min-width: 901px) {
+  .jumbotron {
+    background: url("images/images (5).jpg") no-repeat center fixed;
+    background-size: cover;
+  }
+  footer {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  footer .hoursHeader {
+    -ms-grid-column: 1;
+    grid-column: 1;
+  }
+  footer .times {
+    -ms-grid-column: 1;
+    grid-column: 1;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .jumbotron {
+    background: url("images/images (5).jpg") no-repeat center fixed;
+    background-size: cover;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
