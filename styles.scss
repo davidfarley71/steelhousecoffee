@@ -12,11 +12,19 @@ main{
     flex:1;
 }
 
+.coffeemenu{
+   padding: 20px;
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+}
+
+
+
 .perfectCenter{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .display-inline-block{
@@ -35,16 +43,40 @@ footer{
     .jumbotron{
         background: url('images/images (5).jpg') no-repeat center fixed;
         background-size: cover;
+        .logo{
+            width: 200px;
+            position: absolute;
+            right: 30px;
+            top: 30px;
+        }
     }
 
     footer{
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         .hoursHeader{
             grid-column: 1;
+            grid-row: 1
         }
         .times{
-            grid-column: 1
+            grid-column: 1;
+            grid-row: 2;
+        }
+        .socialHeader{
+            grid-column: 3;
+            grid-row: 1;
+        }
+        .social{
+            display: flex;
+            flex-direction: column;
+
+            grid-column: 3;
+            grid-row: 2;
+        }
+        .map{
+            grid-column: 2;
+            grid-row: 2;
+            margin-bottom: 15px;
         }
     }
 }
