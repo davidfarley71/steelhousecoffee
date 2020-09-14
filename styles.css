@@ -29,6 +29,15 @@ main {
       flex-wrap: wrap;
 }
 
+.coffeeHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .perfectCenter {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -114,6 +123,18 @@ footer {
   .jumbotron {
     background: url("images/images (5).jpg") no-repeat center fixed;
     background-size: cover;
+  }
+  .jumbotron .logo {
+    width: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  footer .map {
+    margin: 15px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
