@@ -90,12 +90,16 @@ footer{
     .jumbotron{
         background: url('images/images (5).jpg') no-repeat center fixed;
         background-size: cover;
-        
-        .logo{
-            width: 200px;
+
+        .logocontainer{
             display: flex;
-            justify-content: center;
+            justify-content:  center;
+            .logo{
+                width: 200px;
+
+            }
         }
+        
     }
     footer{
         .map{
